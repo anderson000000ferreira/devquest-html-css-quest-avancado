@@ -16,7 +16,7 @@ body {
     'picture informacao'
     'contatos contatos';
   grid-template-columns: repeat(2, 1fr);
-  max-width: 1000px;
+  max-width: 1320px;
   margin: 0 auto;
   min-height: 100vh;
   padding: 20px;
@@ -109,8 +109,7 @@ body {
   grid-area: contatos;
   padding: 40px 0 0;
   display: flex;
-  justify-content: flex-end;
-  margin-right: 10px;
+  justify-content:right;
 }
 
 .main .contatos .redes-sociais {
