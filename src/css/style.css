@@ -23,7 +23,6 @@ body {
   background-size: contain;
   height: 100vh;
   padding: 20px;
- 
 }
  
 .main .cabecalho {
@@ -31,8 +30,6 @@ body {
   padding: 20px 0;
   display: flex;
   margin: 10px 20px;
-  
- 
 }
  
 .main .cabecalho .logo {
@@ -47,11 +44,6 @@ body {
 .main .picture {
   grid-area: picture;
   width: 90%;
- 
-}
- 
-.main .picture .ilustracao {
-  padding: 20px;
 }
  
 .main .picture .ilustracao img {
