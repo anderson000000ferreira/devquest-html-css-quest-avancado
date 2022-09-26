@@ -1,167 +1,163 @@
 @media (max-width: 768px) {
-    .main {
-        background: url(../image/bg-mobile.svg) no-repeat;
-        background-size: 100%;
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        max-width: 100%;
-        
-    }
+  body {
+    background: url(../image/bg-mobile.svg) no-repeat;
+    background-size: 100%;
+    background-color: hsl(257, 40%, 49%);
+  }
 
-    .main .cabecalho {
-        margin-top: 10px;
-        margin-left: 20px;
-    }
+  .main {
+    width: 100%;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+  }
 
-    .main .cabecalho img {
-        margin-top: 20px;
-        margin-left: 30px;
-    }
+  .main .cabecalho {
+    margin-left: 20px;
+  }
 
-    .main .picture {
-       margin: 0 10px;
-    }
+  .main .cabecalho img {
+    margin-left: 30px;
+  }
 
-    .main .picture .ilustracao {
-        width: 100%;
-        margin: 0 20px;        
-    }
+  .main .picture {
+    margin: 0 10px;
+  }
 
-    .main .picture .ilustracao img {
-        width: 100%;
-    }
+  .main .picture .ilustracao {
+    width: 100%;
+    margin: 0 20px;
+  }
 
-    .main .informacao {
-        width: 100%;
-    }
+  .main .picture .ilustracao img {
+    width: 90%;
+    margin-left: 20px;
+  }
 
-    .main .informacao .container {
-        align-items: center;
-        padding: 5px 30px;
-        margin-left: 30px;
-    }
+  .main .informacao {
+    width: 100%;
+  }
 
-    .main .informacao .container h1 {
-        font-size: 4rem;
-        text-align: center;
-        width: 90%;
-        margin-left: 20px;
-    }
+  .main .informacao .container {
+    align-items: center;
+    padding: 5px 30px;
+    margin-left: 30px;
+    width: 90%;
+  }
 
-    .main .informacao .container p {
-        text-align: center;
-        width: 90%;
-        font-size: 2rem;
-        line-height: 160%;
-    }
+  .main .informacao .container h1 {
+    font-size: 3.8rem;
+    text-align: center;
+    width: 90%;
+    margin-left: 20px;
+  }
 
-    .main .container .btn-register {
-        padding: 20px;
-        margin-top: 10px;            
-    }
+  .main .informacao .container p {
+    text-align: center;
+    width: 90%;
+    font-size: 1.8rem;
+    line-height: 160%;
+  }
 
-    .main .container .btn-register a {
-        padding: 1.6rem 10rem;
-        font-size: 1.7rem;        
-    }
+  .main .container .btn-register {
+    padding: 20px;
+    margin-top: 10px;
+  }
 
-    .main .contatos {
-        align-self: center;
-        margin-left: 20px;
-    }
+  .main .container .btn-register a {
+    padding: 1.6rem 10rem;
+    font-size: 1.7rem;
+  }
 
-    .main .redes-sociais {        
-        margin-bottom: 40px;
-        
-    }
+  .main .contatos {
+    align-self: center;
+    margin-left: 20px;
+  }
 
+  .main .redes-sociais {
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 650px) {
-    .main {
-        background: url(../image/bg-mobile.svg) no-repeat;
-        background-size: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        margin: 0 auto;
-    }
+  body {
+    background: url(../image/bg-mobile.svg) no-repeat;
+    background-size: 100%;
+    background-color: hsl(257, 40%, 49%);
+  }
 
-    .main .cabecalho {
-        width: 50%;
-    }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 
-    .main .cabecalho .logo {
-        width: 90%;
-        margin: 0;
-    }
+  .main .cabecalho {
+    width: 50%;
+    margin: 10px 10px;
+  }
 
-    .main .cabecalho .logo img {
-        max-width: 150px;
-        
-    }
+  .main .cabecalho .logo img {
+    max-width: 130px;
+    margin-left: 15px;
+  }
 
-    .main .picture {
-        align-items: center;
-        margin: 0 auto;
-    }
+  .main .picture {
+    align-items: center;
+    margin-left: 0;    
+  }
 
-    .main .picture .ilustracao {
-        margin: 0;
-    }
+  .main .picture .ilustracao {
+    margin-left: 10px;
+  }
 
-    .main .picture img {
-        margin-top: 40px;
-    }
+  .main .informacao {
+    align-self: center;
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+  }
 
-    .main .informacao {        
-        align-self: center;
-        width: 100%;
-        margin: 0 auto;
-        padding: 10px;        
-    }
+  .main .informacao .container {
+    align-items: center;
+    padding: 10px 15px;
+    width: 100%;
+    margin-left: 0;
+  }
 
-    .main .informacao .container {
-        align-items: center;
-        padding: 10px 15px;
-        width: 100%;
-        margin: 0;
-        margin-top: 10px;        
-    }
+  .main .informacao .container h1 {
+    width: 100%;
+    font-size: 2.4rem;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 
-    .main .informacao .container h1 {
-        width: 100%;
-        font-size: 2.4rem;
-        margin: 0 auto;
-        margin-top: 20px;
-        
-    }
+  .main .informacao .container p {
+    max-width: 90%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
 
-    .main .informacao .container p {
-        max-width: 90%;
-        text-align: center;
-        font-size: 1.8rem;
-        margin: 0 auto;
-        margin-top: 10px;
+  .main .container .btn-register {
+    padding: 20px;
+  }
 
-    }
+  .main .container .btn-register a {
+    padding: 1.6rem 10rem;
+    font-size: 1.7rem;
+  }
 
-    .main .container .btn-register {
-        padding: 20px;
-        margin-top: 20px;            
-    }
+  .main .contatos {
+    align-self: center;
+    padding-top: 0;
+  }
 
-    .main .container .btn-register a {
-        padding: 1.6rem 10rem;
-        font-size: 1.7rem; 
-             
-    }
-
-    .main .contatos {
-        align-self: center;        
-    }
+  .main .redes-sociais {
+    margin-bottom: 15px;
+  }
 }

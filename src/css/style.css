@@ -1,61 +1,58 @@
 html {
-    font-size: 62.5%;
-    /* 1.6rem = 16px
-       2rem = 20px */
-    font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    background-color: hsl(257, 40%, 49%);
+  background: url(../image/bg-desktop.svg) center no-repeat;
+  background-size: cover;
+  background-color: hsl(257, 40%, 49%);
 }
- 
+
 .main {
   display: grid;
   grid-template-areas:
-    "cabecalho cabecalho"
-    "picture informacao"
-    "contatos contatos";
+    'cabecalho cabecalho'
+    'picture informacao'
+    'contatos contatos';
   grid-template-columns: repeat(2, 1fr);
-  max-width: 1320px;
+  max-width: 1000px;
   margin: 0 auto;
- 
-  background: url(../image/bg-desktop.svg) center no-repeat;
-  background-size: contain;
-  height: 100vh;
+  min-height: 100vh;
   padding: 20px;
 }
- 
+
 .main .cabecalho {
   grid-area: cabecalho;
   padding: 20px 0;
   display: flex;
   margin: 10px 20px;
 }
- 
+
 .main .cabecalho .logo {
   display: flex;
   margin-top: 20px;
 }
- 
+
 .main .cabecalho .logo img {
   width: 190px;
 }
- 
+
 .main .picture {
   grid-area: picture;
   width: 90%;
 }
- 
+
 .main .picture .ilustracao img {
- max-width: 100%;
+  max-width: 100%;
 }
- 
+
 .main .informacao {
   grid-area: informacao;
   display: flex;
   width: 90%;
 }
- 
+
 .main .informacao .container {
   display: flex;
   flex-direction: column;
@@ -64,78 +61,80 @@ body {
   margin: 0 auto;
   margin-top: 30px;
   margin-left: 0;
-  
-  
 }
- 
-.main .informacao .container h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    color: #fff;
-    font-size: 3rem;
-    padding: 10px 0;
-    margin-bottom: 10px;
-    text-align: left;
-    
-}
- 
-.main .informacao .container p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: #fff;
-    margin-bottom: 10px;
-    line-height: 160%;
-    max-width: 90%;
-    
-}
- 
-.main .informacao .container .btn-register {
-    padding: 20px 0;    
-}
- 
-.main .informacao .container a {
-    font-family: 'Poppins', sans-serif;
-    background-color: #fff;
-    color: hsl(257, 40%, 49%);
-    font-size: 1.4rem;
-    padding: 1.1rem 4.5rem;
-    border-radius: 30px;
-    box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.255 );
 
-    transition: 0.3s ease-in-out;
-   
+.main .informacao .container h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  max-width: 90%;
+  color: #fff;
+  font-size: 3.3rem;
+  padding: 0;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.main .informacao .container p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 160%;
+  max-width: 90%;
+}
+
+.main .informacao .container .btn-register {
+  padding: 20px 0;
+}
+
+.main .informacao .container a {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  font-size: 1.4rem;
+  padding: 1.1rem 4.5rem;
+  border-radius: 30px;
+  box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.255);
+  transition: 0.3s ease-in-out;
 }
 
 .main .informacao .container a:hover {
-    background-color: hsl(300, 69%, 71%);
-    color: #fff;
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
 }
- 
+
 .main .contatos {
   grid-area: contatos;
   padding: 40px 0 0;
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
-  
 }
- 
-.main .contatos .redes-sociais a {
-    border: 1px solid #fff;
-    color: #fff;
-    padding: 1.1rem;
-    border-radius: 50%;
-    display: inline-flex;
-    width: 40px;
-    height: 40px;
-    font-size: 1.8em;
-    margin-right: 15px;
- 
-    transition: 0.3s ease-in-out;
-  }
 
-  .main .contatos .redes-sociais a:hover {
-    color: hsl(300, 69%, 71%);
-    border-color: hsl(300, 69%, 71%);
-  }
+.main .contatos .redes-sociais {
+  display: flex;
+  align-items: center;
+}
+
+.main .contatos .redes-sociais a {
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin-right: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.main .contatos .redes-sociais i {
+  font-size: 1.8em;
+  padding-left: 0.2rem;
+}
+
+.main .contatos .redes-sociais a:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
